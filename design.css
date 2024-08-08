@@ -33,7 +33,7 @@ body {
 
 fieldset {
     /* border: 1px solid #000; */
-    overflow: hidden;
+    /* overflow: hidden; */
     box-sizing: border-box;
     width: 100%;
     padding: 20px;
