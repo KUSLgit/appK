@@ -1,0 +1,13 @@
+input 1 = encript
+input 2 = decript
+
+simple ui no btns
+output for encripted text on input change
+
+bg: white
+border: dark slate grey
+text: dark slate grey
+
+
+
+
