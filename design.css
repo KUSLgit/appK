@@ -17,17 +17,25 @@ body {
     justify-content: center;
     
 }
-#extraDiv {
-    /* height: 300px; */
+#extraDiv { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 300px;
     position: relative;
     border-radius: 10px;
-    /* width: 300px; */
-/*     overflow: hidden; */
+    /* border: 1px solid #000; */
+    width: 400px;
+    overflow: hidden;
     /* padding: ; */
 }
 
 fieldset {
-    width: 300px;
+    /* border: 1px solid #000; */
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
     padding: 20px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -115,32 +123,33 @@ legend {
     z-index: -10;
     border-radius: 50%;
     position: absolute;
-    /* backdrop-filter: blur(10px);
-    box-shadow: 0 0 32px 0 rgba(31, 38, 135, 0.37);
-    border: 2px solid rgba(255, 255, 255, 0.18); */
-    margin: 10px;
+    filter: blur(10px);
+    /* /* backdrop-filter: blur(10px); */
+    /* box-shadow: 0 0 32px 0 rgba(31, 38, 135, 0.37); */
+    /* border: 2px solid rgba(255, 255, 255, 0.18);  */
+    /* margin: 10px; */
 }
 
 #ball1 {
     background-color: rgba(255, 0, 179, 0.2);
-    top: -15vh;
-    left: -20vw;
+    top: -150px;
+    left: -190px;
     height: 300px;
     width: 300px;
 }
 #ball2{
-    background-color: rgb(170, 86, 145);
-    top: -10vh;
-    right: -11vw;
+    background-color: rgba(86, 93, 170, 0.37);
+    top: -60px;
+    right: -61px;
     height: 90px;
     width: 90px;
 }
 #ball3 {
     background-color: rgba(0, 255, 234, 0.2);
-    top: 19vh;
-    left: 29vw;
-    height: 300px;
-    width: 300px;
+    bottom: -100px;
+    right: -29px;
+    height: 200px;
+    width: 200px;
 }
 
 h1 {
