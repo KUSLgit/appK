@@ -37,3 +37,16 @@ function decrypt() {
   decryptText.innerHTML = "Decrypted Text: " + letters;
   console.log(letters);
 }
+
+
+function showDialog() {
+
+  const dialog = document.querySelector('#dialogue');
+  dialog.style.display = 'block';
+  dialog.showModal();
+}
+
+function closeDialog() {
+  const dialog = document.querySelector('#dialogue');
+  dialog.close();
+}
